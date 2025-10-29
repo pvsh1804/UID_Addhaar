@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project Specific
+# Keep structure but ignore processed data
+data/preprocessed/*.jpg
+data/preprocessed/*.jpeg
+data/preprocessed/*.png
+data/azure_ready/*.jpg
+data/azure_ready/*.jpeg
+data/azure_ready/*.png
+data/azure_ready/azure_batch_config.yaml
+
+# Logs
+logs/*.log
+
+# Reports (optional - uncomment to keep reports in git)
+# data/validation_reports/*.txt
+# data/metadata/*.csv
+# data/metadata/*.xlsx
+# data/metadata/*.json
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
